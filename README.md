@@ -8,15 +8,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Fundamentos do Desenvolvimento Web :white_check_mark:
 
-##### Bloco 1: Introdução - Unix & Shell
+##### Bloco 1: Bloco 1 - Unix & Bash
 
-- [x] 1-3: _Unix & Bash- Part 1_
-- [x] 1-4: _Unix & Bash- Part 2_
+- [x] 1-3: _Fundamentos do Desenvolvimento Web_
+- [x] 1-3: _Introdução - Unix & Shell_
+- [x] 1-3: _Unix & Bash - Parte 1_
+- [x] 1-4: _Unix & Bash - Parte 2_
 
-##### Bloco 2: Git & GitHub
+##### Bloco 2: Git, GitHub e Internet
 
 - [x] 2-1: _O que é e para que serve?_
-- [ ] 2-2: _Entendendo os comandos_
+- [X] 2-2: _Entendendo os comandos_
 - [ ] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: Introdução - HTML & CSS
