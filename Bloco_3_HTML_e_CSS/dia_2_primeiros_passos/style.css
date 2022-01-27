@@ -1,0 +1,27 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+li {
+    background-color: gray;
+    text-align: center;
+}
+
+.cores {
+    background-color: blue;
+    font-style: italic;
+    line-height: normal;
+    text-align: center;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+    text-decoration: blueviolet;
+}
+
+body {
+    font-size: 16px;
+}
