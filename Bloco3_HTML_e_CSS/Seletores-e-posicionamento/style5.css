@@ -1,0 +1,30 @@
+ol li{
+    background-color: yellow;
+}
+ol li:nth-child(odd){
+    text-transform: uppercase;
+}
+ol li:nth-child(even){
+    color: green;
+}
+h1, h2, h3, h4{
+    color: red;
+}
+
+h1 em, h2 em h3 em, h4 em{
+    text-transform: uppercase;
+    border: solid black;
+}
+
+li{
+    font-size: 20px;
+}
+li em{
+    font-weight: 700;
+}
+#linguagens li:not(:nth-child(n + 4)){
+    color: blue
+}
+.pink-bg{
+    background-color: pink;
+}
