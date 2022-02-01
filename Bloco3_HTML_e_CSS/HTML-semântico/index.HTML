@@ -1,70 +1,146 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html>
+
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="style.css">
 </head>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ranking</title>
-    <style>
-      h1 {
-        text-align: center;
-      }
 
-      .first {
-        background-color: rgb(235, 200, 84);
-        font-size: 20px;
-        height: 50px;
-        text-align: center;
-        width: 200px;
-      }
-
-      .second {
-        background-color: rgb(219, 219, 219);
-        font-size: 20px;
-        height: 50px;
-        text-align: center;
-        width: 300px;
-      }
-
-      .third {
-        background-color: rgb(170, 142, 106);
-        font-size: 20px;
-        height: 50px;
-        text-align: center;
-        width: 300px;
-      }
-
-    </style>
-  </head>
-  <body>
+<body>
     <header>
-      <h1>Hackathon Results</h1>
+        <h1 id="home">Soco a 80km/h: Conheça o Stomatopoda.</h1>
+        <h2>Fatos sobre o Stomatopoda</h2>
     </header>
-    <section>
-      <ul>
-        <li class="first">1º - Equipe 1</li>
-        <li class="second">2º - Equipe 2</li>
-        <li class="third">3º - Equipe 3</li>
-      </ul>
-    </section>
-    <section>
-      <h3>Premiação Primeiro Lugar:</h3>
-      <ul>
-        <li>| R$ 1000,00 por integrante da equipe |</li>
-        <li>| Bootcamp de 2 meses com possibilidade de contratação |</li>
-      </ul>
-      <h3>Premiação Segundo Lugar:</h3>
-      <ul>
-        <li>| R$ 600,00 por integrante da equipe |</li>
-        <li>| Participação no processo seletivo para o Bootcamp |</li>
-      </ul>
-      <h3 id="premio3">Premiação Terceiro Lugar:</h3>
-      <ul>
-        <li>| R$ 300,00 por integrante da equipe |</li>
-        <li>| Participação no processo seletivo para o Bootcamp |</li>
-      </ul>
-    </section>
-  </body>
+    <nav>
+        <ul>
+            <li><a href="#home">Página Inicial</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#descrição">Descrição</a></li>
+            <li><a href="#suaforça">Sua Força</a></li>
+            <li><a href="#visão">Visão</a></li>
+            <li><a href="#ref">Referências</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <article>
+        <section id="sobre">
+            <h2>Stomatopoda</h2>
+            <p><b>Stomatopoda</b> ou estomatópode (<i>Odontodactylus scyllarus</i>), chamados popularmente de
+                <b>tamarutacas</b> ou de
+                <b>lacraias-do-mar</b> no Brasil, é
+                uma ordem de crustáceos marinhos da subclasse Hoplocarida, que agrupa cerca de 400 espécies,
+                caracterizadas principalmente pela morfologia da segunda pata torácica, que é modificada em apêndice
+                subquelado, lembrando uma pata de louva-a-deus.</p>
+            <img src="img1.jpg" alt="imagem de uma Stomatopoda">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="6">Classificação científica</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Reino</td>
+                        <td>Filo</td>
+                        <td>Subfilo</td>
+                        <td>Classe</td>
+                        <td>Subclasse</td>
+                        <td>Ordem</td>
+                    </tr>
+                    <tr>
+                        <td>Animalia</td>
+                        <td>Arthropoda</td>
+                        <td> Crustacea</td>
+                        <td>Malacostraca</td>
+                        <td>Hoplocarida</td>
+                        <td>Stomatopoda</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="descrição">
+            <h3>Descrição</h3>
+            <p>
+                Os estomatópodes são predadores ativos que caçam presas com o auxílio de um sentido de visão muito
+                apurado e capaz de interpretar polarização no espectro ultravioleta e infravermelho). Apresentam uma
+                grande variação de tamanho, que pode ir de poucos milímetros até aproximadamente 40 cm nas espécies
+                maiores. Eles vivem em fundo consolidado, lodoso ou ainda arenoso, onde cavam seus buracos ou
+                aproveitam-se dos orifícios deixados por outros animais para neles se instalar. São animais
+                exclusivamente carnívoros, alimentando-se de camarões, caranguejos, moluscos, peixes e até mesmo outros
+                da mesma ordem.O segundo par de patas, muito desenvolvido, é usado tanto para atacar a presa como para
+                se defender. O urópodo, quando aberto, também funciona para defesa, como um escudo, fechando a galeria
+                em que o animal esteja instalado. A fêmea desova no local onde se abriga e, em caso de perigo, enrola os
+                ovos como uma bola, prendendo-os junto ao corpo até encontrar um abrigo mais protegido.
+            </p>
+            <p>
+                Também conhecidas como esquilas ou lagosta-boxeadora, espalhadas pelas costas dos mares tropicais e
+                subtropicais. Além das patas, elas apresentam uma silhueta característica, devido ao grande comprimento
+                aparentemente de seu abdómen. Os ovos ficam ligados por uma massa gelatinosa que a mãe carrega contra o
+                ventre até que eclodem, limpando-os sem parar.
+            </p>
+        </section>
+        <section id="suaforça">
+            <h1>Sua Força</h1>
+            <p>
+                São animais que apresentam comportamentos sociais muito variados, desde ameaças visuais contra
+                predadores até comportamentos de côrte. De acordo com a anatomia da sua pata raptorial é possível
+                distinguir entre dois grupos funcionais, as perfuradoras (<i>spearers</i>) ou as esmagadoras
+                (<i>smashers</i>), sendo
+                que cada um dos tipos apresenta sua própria variação comportamental e até mesmo de habitat.<br>
+                As maiores esmagadoras, tais como exemplares de <i>Odontodactylus scyllarus</i>, são capazes de desferir
+                um dos mais rápidos e violentos golpes do reino animal, seu soco chega a <b>80Km/h</b>, e uma pressão de
+                impacto de <b>600 N/cm²</b>. Essa
+                força esmagadora é a
+                responsável pelo seu título de "lagosta-boxeadora" e é capaz de facilmente quebrar a carapaça de um
+                caranguejo, as conchas duras e calcificadas de gastrópodes ou até mesmo quebrar o vidro reforçado de um
+                aquário.<br><br>Estomatópodes podem ser encontrados em quase todo o litoral brasileiro, mas não são
+                animais
+                fáceis de se observar pelos seus hábitos mais furtivos. Devem ser manuseados com muita cautela pois são
+                animais preparados para se defender com força, caso sejam incomodados.
+            </p>
+            <img src="tipos.jpg"
+                alt="imagem de dois pares de patas sendo um do tipo perfuradoras e outro das esmagadoras">
+        </section>
+        <section id="visão">
+            <h1>Visão</h1>
+            <p>Esses animais possuem o mais complexo sistema de visão de cores do mundo animal, pois enxergam 12 cores
+                primárias, correspondentes aos 12 pigmentos distintos presentes em sua retina.<br>
+                Nossos olhos possuem três tipos desses receptores - que correspondem à luz azul, verde e vermelha -, que
+                nos permitem perceber o espectro de cores que vemos. Os cães contam com apenas dois tipos de cones
+                (verde e azul), e é por isso que eles vêm tons de azul, verde e um pouco de amarelo. Muitos anfíbios,
+                répteis, aves e insetos possuem quatro tipo de cones, o que significa que espécies dessas classes
+                conseguem ver cores que o nosso cérebro é incapaz de processar. Algumas espécies específicas de
+                borboletas e possivelmente pombos possuem cinco cones de percepção de cor, o que aumenta ainda mais a
+                quantidade de pigmentos que eles são capazes de perceber. O sistema de visão dos estomatópodes possui
+                doze cones sensíveis à luz e outros quatro que filtram a luz (16 cones no total), o que lhes permite ver
+                cores polarizadas e imagens multiespectrais.<br><br>Como cada cone pode ver cerca de 100 cores, os
+                estomatópodes são capazes de ver 1024 cores, ou seja, <b>1
+                    septilhão de cores</b>. Em comparação, o olho humano vê 106 cores, ou seja, 1 milhão de cores
+                apenas. A
+                visão dos estomatópodes é sensível à luz ultravioleta, mas ainda é desconhecido se ela pode distinguir a
+                luz infravermelha.
+            </p>
+            <img src="visao.jpg"
+                alt="imagem contendo dois gráficos desmonstrando a relação entre comprimenro de onda e sensibilidade espectral do homo sapiens e do Stomatopoda">
+        </section>
+        <section id="ref">
+            <h1>Referências bibliográficas</h1>
+            <ul>
+                <li><a href="https://pt.wikipedia.org/wiki/Stomatopoda"
+                        target="_blank">https://pt.wikipedia.org/wiki/Stomatopoda</a></li>
+                <li><a href="https://www.uol.com.br/tilt/ultimas-noticias/redacao/2018/10/25/camarao-da-socos-que-chegam-a-80-kmh-e-biologos-estudam-a-origem-da-forca.htm"
+                        target="_blank">https://www.uol.com.br/tilt/ultimas-noticias/redacao/2018/10/25/camarao-da-socos-que-chegam-a-80-kmh-e-biologos-estudam-a-origem-da-forca.htm</a>
+                </li>
+                <li><a href="http://eonaturalista.blogspot.com/2015/05/stomatopoda-maravilhosos-terrores-dos.html"
+                        target="_blank">http://eonaturalista.blogspot.com/2015/05/stomatopoda-maravilhosos-terrores-dos.html</a>
+                </li>
+            </ul>
+        </section>
+    </article>
+</body>
+<footer id="contato">
+    <h4>Conteúdo compilado por Luciano Freitas, 2022</h4>
+</footer>
+
 </html>
