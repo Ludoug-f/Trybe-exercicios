@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(37, 158, 97);
+  text-shadow: black 0.1em 0.2em 0.2em;
+  color: white;
+  z-index: 2;
+}
+
+#titulo {
+  text-align: center;
+  font-family: monospace;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+#subtitulo {
+  text-align: center;
+  font-size: x-large;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+#minha_foto {
+  display: inline-block;
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+#rodape {
+  position: absolute;
+  text-align: center;
+  background-color: rgb(37, 158, 97);
+  color: white;
+  right: 0;
+  left: 0;
+  line-height: 25px;
+}
+
+#contatos {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  text-shadow: black 0.1em 0.2em 0.2em;
+}
+
+#github {
+  background-color: rgb(93, 182, 121);
+  text-decoration: none;
+  color: white;
+  padding: 3px
+}
+
+#linkedin {
+  background-color: rgb(93, 182, 121);
+  text-decoration: none;
+  color: white;
+  padding: 3px
+}
+
+#nav {
+  font-size: 18px;
+  position: absolute;
+  top: 15px;
+}
+
+aside {
+  position:absolute;
+  right: 1em;
+  top: 8em;
+  text-align: center;
+  border-style: solid;
+  border-color: seagreen;
+  background-color: rgb(164, 226, 184);
+  width: 250px;
+  height: auto;
+  margin: 5px;
+  z-index: 1;
+}
