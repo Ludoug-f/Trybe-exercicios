@@ -66,14 +66,37 @@
 
 
 
-//let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-//let result = numbers[0];
-//
-//for (let index = 1; index < numbers.length; index += 1) {
-//    if (numbers[index] < result ) {
-//        result = numbers[index]
-//    }
-//
-//}
-//
-//console.log(result);
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let result = numbers[0];
+
+// for (let index = 1; index < numbers.length; index += 1) {
+//     if (numbers[index] < result ) {
+//         result = numbers[index]
+//     }
+
+// }
+
+// console.log(result);
+
+
+
+
+// let numbers = [];
+// for (let index = 0; index <= 24; index+=1) {
+//     numbers.push(index+1)
+// }
+
+// console.log(numbers);
+
+
+
+
+let numbers = [];
+for (let index = 0; index <= 24; index+=1) {
+    numbers.push(index+1)
+}
+let result
+for (let index = 0; index < numbers.length; index+=1) {
+    let result = numbers[index] / 2;
+    console.log(result);
+}
