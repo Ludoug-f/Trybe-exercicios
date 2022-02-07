@@ -8,5 +8,5 @@ let diasDaSemana = {
     7: 'sábado',
 };
 
-diasDaSemana .1; // SyntaxError: Unexpected number
-console.log(diasDaSemana['1']); // domingo
+diasDaSemana[1];
+console.log(diasDaSemana['1']); 
