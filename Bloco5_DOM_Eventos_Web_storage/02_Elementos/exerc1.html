@@ -66,34 +66,35 @@
     const tagMain = document.createElement('main')
     tagMain.className = 'main-content'
     document.body.appendChild(tagMain)
-    const mainP = document.querySelector(".main-content")
+    const classMain = document.querySelector(".main-content")
 
     const tagSection = document.createElement('section')
     tagSection.className = 'center-content'
-    mainP.appendChild(tagSection)
-    tagSection.style.backgroundColor = "green"
-    const sectionP1 = document.querySelector(".center-content")
+    classMain.appendChild(tagSection)
+    const classSection1 = document.querySelector(".center-content")
+    classSection1.style.backgroundColor = "green"
 
     const tagParagrafo = document.createElement('p');
     tagParagrafo.innerText = 'eh isso';
-    sectionP1.appendChild(tagParagrafo);
+    classSection1.appendChild(tagParagrafo);
 
     const tagSection2 = document.createElement('section')
-    tagSection.className = 'left-content'
-    mainP.appendChild(section2)
-    const section2 = document.querySelector(".left-content")
+    tagSection2.className = 'left-content'
+    classMain.appendChild(tagSection2)
+    const classSection2 = document.querySelector(".left-content")
     tagSection2.removeChild('left-content')
 
     const tagSection3 = document.createElement('section')
-    tagSection.className = 'right-content'
-    mainP.appendChild(section3)
-    const section3 = document.querySelector(".right-content")
-    section3.style.marginRight = 'auto';
+    tagSection3.className = 'right-content'
+    classMain.appendChild(tagSection3)
+    const classSection3 = document.querySelector(".right-content")
+    classSection3.style.marginRight = 'auto';
 
-    const imgElement = document.createElement('img')
-    imgElement.className = 'small-image'
-    imgElement.src = "https://picsum.photos/200"
-    section2.appendChild(imgElement)
+    const tagImg = document.createElement('img')
+    tagImg.className = 'small-image'
+    tagImg.src = "https://picsum.photos/200"
+    classSection2.appendChild(tagImg)
+    const classImg = document.querySelector(".small-image")
 
     const ulLista = document.createElement("ul")
     tagSection3.appendChild(lista)
