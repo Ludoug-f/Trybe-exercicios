@@ -12,24 +12,49 @@
 <body>
     <form action="" method="get">
         <fieldset>
-            <legend>Aula de Forms</legend>
-            <label for="name">Nome: </label>
-            <input type="text">
+            <legend>Formulário</legend>
+
+            <label for="name">Nome completo: </label>
+            <input type="text" maxlength="40" minlength="10" placeholder="Digite seu nome completo" required>
+            <br>
+
             <label for="email">Email: </label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" maxlength="50" minlength="10" placeholder="Digite seu email"
+                required>
+            <br>
+
+            <input type="radio" id="op1" class="radios" value="Cidade" name="destinos" required>
+            <label for="op1">Cidade</label>
+            <input type="radio" id="op2" class="radios" value="Campo" name="destinos" required>
+            <label for="op2">Campo</label>
+            <input type="radio" id="op3" class="radios" value="Praia" name="destinos" required>
+            <label for="op3">Praia</label>
+            <input type="radio" id="op4" class="radios" value="Montanhas" name="destinos" required>
+            <label for="op4">Montanhas</label>
+            <br>
+
+            <label for="resposta">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+            </label>
+            <br>
+            <textarea name="resposta" cols="60" rows="10" placeholder="Digite aqui sua resposta"
+                id="resposta"></textarea>
+            <br>
+
+            <label for="date">Qual a melhor data para realizar sua viagem? </label>
+            <input type="date" name="date" id="date" required>
+            <br>
+
+            <label for="aceitas">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? </label>
+            <input type="checkbox" name="aceitas" id="aceitas" required>
+            <br>
+
+            <label for="aceitas2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos
+                futuros. </label>
+            <input type="checkbox" name="aceitas" id="aceitas2" required>
         </fieldset>
-        <fieldset>
-            <legend>Opções</legend>
-            <input type="radio">
-            <input type="radio">
-            <input type="radio">
-            <input type="radio">
-        </fieldset>
-        <fieldset>
-            <legend>Resposta</legend>
-            <label log="resposta">Digite sua resposta aqui</label>
-            <textarea cols="35" rows="10" placeholder="Resposta" id="resposta"></textarea>
-        </fieldset>
+
+        <button type="submit" id="submit-btn">Participar do concurso TrybeTrip</button>
+        <button type="button" id="clear-btn">Limpar informações</input>
     </form>
     <script src="script.js"></script>
 </body>
