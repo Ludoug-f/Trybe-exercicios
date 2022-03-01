@@ -2,14 +2,15 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-#a {
-  list-style-type: none;
-  font-family: monospace;
+.menu {
+  text-decoration: none;
+  list-style: none;
+  color: white;
 }
 
-#b {
-  list-style-type: none;
-  font-family: monospace;
+.titulos {
+  text-shadow: black 0.1em 0.2em 0.2em;
+  color: white;
 }
 
 #cabecalho {
@@ -18,8 +19,6 @@ body {
   right: 0;
   left: 0;
   background-color: rgb(37, 158, 97);
-  text-shadow: black 0.1em 0.2em 0.2em;
-  color: white;
   z-index: 2;
 }
 
@@ -34,7 +33,7 @@ body {
   text-align: center;
   font-size: x-large;
   margin-bottom: 15px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 #minha_foto {
@@ -65,20 +64,19 @@ body {
   background-color: rgb(93, 182, 121);
   text-decoration: none;
   color: white;
-  padding: 3px
+  padding: 3px;
 }
 
 #linkedin {
   background-color: rgb(93, 182, 121);
   text-decoration: none;
   color: white;
-  padding: 3px
+  padding: 3px;
 }
 
 #nav {
-  font-size: 18px;
   position: absolute;
-  top: 15px;
+  top: 20px;
 }
 
 aside {
@@ -94,6 +92,16 @@ aside {
   margin: 5px;
   z-index: 1;
 }
+
 table {
-margin: auto;
+  margin: auto;
+}
+
+.licoes {
+  display: flex;
+}
+
+.lado-esquerdo , .lado-direito {
+  width: 250px;
+  offset: inherit;
 }
