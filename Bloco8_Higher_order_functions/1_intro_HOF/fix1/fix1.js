@@ -7,3 +7,5 @@ const sleep = () => 'Partiu dormir!!';
 const doingThings = (func) => console.log(func());
 
 doingThings(wakeUp);
+doingThings(breakfast);
+doingThings(sleep);
