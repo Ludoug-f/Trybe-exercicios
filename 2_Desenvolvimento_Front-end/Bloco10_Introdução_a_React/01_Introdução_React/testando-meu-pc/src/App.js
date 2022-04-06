@@ -1,7 +1,7 @@
 import React from 'react';
-import HelloWorld from './HelloWorld';
+import HelloWorld from './components/HelloWorld';
 import './App.css';
-import Image from './image';
+import Image from './components/image';
 
 function App() {
   return (
