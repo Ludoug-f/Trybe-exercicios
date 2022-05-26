@@ -121,11 +121,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 
-- [ ] 15-1: _Introdução ao Redux_
-- [ ] 15-2: _React com Redux_
-- [ ] 15-3: _React com Redux - Prática_
-- [ ] 15-4: _React com Redux - Actions Assíncronas_
-- [ ] 15-5: _Testes em React-Redux_
+- [X] 15-1: _Introdução ao Redux_
+- [X] 15-2: _React com Redux_
+- [X] 15-3: _React com Redux - Prática_
+- [X] 15-4: _React com Redux - Actions Assíncronas_
+- [X] 15-5: _Testes em React-Redux_
 - [ ] 15-6: _[Projeto - Trybe Wallet]_
 
 ##### Bloco 16: Projeto Jogo de Trivia
