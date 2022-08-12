@@ -177,12 +177,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 22-3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
 - [X] 22-4: _Express - HTTP com Node.js_
 - [X] 22-5: _Express - Middlewares_
-- [ ] 22-6: _[Projeto - Talker Manager]_
+- [X] 22-6: _[Projeto - Talker Manager]_
 
 ##### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 23-1: _Introdução - Arquitetura de Software_
-- [ ] 23-1: _Arquitetura de Software - Camada de Model_
+- [X] 23-1: _Introdução - Arquitetura de Software_
+- [X] 23-1: _Arquitetura de Software - Camada de Model_
 - [ ] 23-2: _Arquitetura de Software - Camada de Controller e Service_
 - [ ] 23-3: _Arquitetura Web - Rest e Restful_
 - [ ] 23-4: _Arquitetura de Software - Testando as Camadas_
