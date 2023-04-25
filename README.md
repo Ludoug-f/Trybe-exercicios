@@ -244,7 +244,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 31-1: _[Projeto - App de Delivery]_
 
-## Ciência da Computação :hourglass_flowing_sand:
+## Ciência da Computação :white_check_mark:
 
 ##### Bloco 32: Introdução à Python
 
@@ -256,37 +256,39 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 33: Padrões de Projeto
 
-- [ ] 33-1: _P.O.O em Python_
-- [ ] 33-2: _Iterator, Adapter, Strategy_
-- [ ] 33-3: _Decorator, Observer, Factory_
-- [ ] 33-4: _[Projeto - Relatórios de Estoque]_
+- [X] 33-1: _P.O.O em Python_
+- [X] 33-2: _Iterator, Adapter, Strategy_
+- [X] 33-3: _Decorator, Observer, Factory_
+- [X] 33-4: _[Projeto - Relatórios de Estoque]_
 
-##### Bloco 34: Redes e Raspagem de Dados
+##### Bloco 34: Raspagem de Dados
 
-- [ ] 34-1: _Arquitetura de redes_
-- [ ] 34-2: _Redes de computadores, ferramentas e segurança_
-- [ ] 34-3: _Raspagem de Dados_
-- [ ] 34-4: _[Projeto - Tech news]_
+- [X] 34-1: _Raspagem de Dados_
+- [X] 34-2: _Outras Ferramentas de Raspagem de Dados_
+- [X] 34-3: _Crawlers e POO_
+- [X] 34-4: _[Projeto - Tech news]_
 
 ##### Bloco 35: Algoritmos
 
-- [ ] 35-1: _Complexidade de Algoritmos_
-- [ ] 35-2: _Recursividade e Estratégias para solução de problemas_
-- [ ] 35-3: _Algoritmos de ordenação e busca_
-- [ ] 35-4: _[Projeto - Algoritmos]_
+- [X] 35-1: _Complexidade de Algoritmos_
+- [X] 35-2: _Recursividade e Estratégias para solução de problemas_
+- [X] 35-3: _Algoritmos de ordenação e busca_
+- [X] 35-4: _[Projeto - Algoritmos]_
 
-##### Bloco 36: Estrutura de Dados I: Arrays, Hashmaps e Sets
+##### Bloco 36: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
 
-- [ ] 36-1: _Arquitetura de Computadores_
-- [ ] 36-2: _Arrays_
-- [ ] 36-3: _Hashmap e Dict_
-- [ ] 36-4: _Set_
-- [ ] 36-4: _[Projeto - Restaurant Orders]_
+- [X] 36-1: _Arquitetura de Computadores_
+- [X] 36-2: _Arquitetura de Redes_
+- [X] 36-3: _Arrays_
+- [X] 36-4: _Nó e Listas Encadeadas_
+- [X] 36-5: _Pilhas e Filas_
+- [X] 36-6: _[Projeto - TING - Trybe Is Not Google]_
 
 ##### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
 
-- [ ] 37-1: _Nó e Listas Encadeadas_
-- [ ] 37-2: _Pilhas e Filas_
-- [ ] 37-3: _[Projeto - TING - Trybe Is Not Google]_
+- [X] 37-1: _Hashmap e Dict_
+- [X] 37-2: _Set_
+- [X] 37-2: _Pandas_
+- [X] 37-3: _[Projeto - Restaurant Orders]_
 
 # [...]
